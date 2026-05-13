@@ -5,7 +5,7 @@
     "Inkyst A."
   ],
   "description": "Hi! Its me, Descripto-kun!",
-  "prefix": "inkybuncho",
+  "prefix": "inkybot",
   "main_file": "maine.lua",
   "version": "0.0.1",
   "priority": 0,
