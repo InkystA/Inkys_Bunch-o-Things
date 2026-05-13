@@ -1,0 +1,12 @@
+{
+  "id": "inkysbunchothings",
+  "name": "Inky's Bunch-o-Things",
+  "author": [
+    "Inkyst A."
+  ],
+  "description": "Hi! Its me, Descripto-kun!",
+  "prefix": "inkybuncho",
+  "main_file": "maine.lua",
+  "version": "0.0.1",
+  "priority": 0,
+}
