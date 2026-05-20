@@ -1,3 +1,5 @@
+-- Taken from Astra's Tutorial Video, May be reworked in a future
+
 SMODS.Joker {
     key = 'mermaid',
     atlas = 'jokers',

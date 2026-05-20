@@ -28,3 +28,5 @@ SMODS.Joker {
     end
 
 }
+
+-- My first joker being a fucking +chips jimbo is funny to me lmao
