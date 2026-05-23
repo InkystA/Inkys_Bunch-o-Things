@@ -8,7 +8,7 @@ SMODS.Joker {
     config = {
         extra = {
             xmult = 1,
-            scalar = 0.1
+            scalar = 0.05
         },
     },
     rarity = 3,
@@ -22,7 +22,7 @@ SMODS.Joker {
         }
     end,
     calculate = function(self, card, context)
-        if context.money_altered and context.from_shop then
+        if context.money_altered and context.from_shop and not context.blueprint then
             SMODS.scale_card(card, {
                 ref_table = card.ability.extra,
                 ref_value = "xmult",

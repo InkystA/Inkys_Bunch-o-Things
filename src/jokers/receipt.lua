@@ -1,30 +1,30 @@
-SMODS.Joker {
-    key = 'receipt',
-    atlas = 'jokers',
-    pos = {
-        x = 2,
-        y = 0
-    },
-    blueprint_compat = false,
-    config = {
-        extra = {
-            slots = 1
-        },
-    },
-    rarity = 3,
-    cost = 10,
-    loc_vars = function(self, info_queue, card) -- something something slots_used?
-        return {
-            vars = {
-                card.ability.extra.slots
-            }
-        }
-    end,
-    calculate = function(self, card, context)
-        if context.other_joker and context.other_joker:is_rarity("Common") then -- Note to self, taking from Baseball does not work.
-            return {
-                slots = card.ability.extra.slots
-            }
-        end
-    end,
-}
+-- SMODS.Joker {
+--     key = 'receipt',
+--     atlas = 'jokers',
+--     pos = {
+--         x = 2,
+--         y = 0
+--     },
+--     blueprint_compat = false,
+--     config = {
+--         extra = {
+--             slots = 1
+--         },
+--     },
+--     rarity = 3,
+--     cost = 10,
+--     loc_vars = function(self, info_queue, card) -- something something slots_used?
+--         return {
+--             vars = {
+--                 card.ability.extra.slots
+--             }
+--         }
+--     end,
+--     calculate = function(self, card, context)
+--         if context.other_joker and context.other_joker:is_rarity("Common") then -- Note to self, taking from Baseball does not work.
+--             return {
+--                 slots = card.ability.extra.slots
+--             }
+--         end
+--     end,
+-- }
