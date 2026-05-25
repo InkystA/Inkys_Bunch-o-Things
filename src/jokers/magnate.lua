@@ -40,7 +40,7 @@ SMODS.JimboQuip({
     },
     filter = function(self, type)
         if type == 'win' then
-            self.extra.text_key = self.key .. '_' .. math.random(1, 2, 3, 4)
+            self.extra.text_key = self.key .. '_' .. math.random(1, 4)
             return true, { weight = 100 }
         end
     end
@@ -56,7 +56,7 @@ SMODS.JimboQuip({
     },
     filter = function(self, type)
         if type == 'loss' then
-            self.extra.text_key = self.key .. '_' .. math.random(1, 2, 3, 4)
+            self.extra.text_key = self.key .. '_' .. math.random(1, 4)
             return true, { weight = 100 }
         end
     end

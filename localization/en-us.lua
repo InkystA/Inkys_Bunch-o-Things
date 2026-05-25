@@ -66,40 +66,41 @@ return {
                 }
             },
         },
-        misc = {
-            quips = {
-                inkybot_magnate_win_1 = {
-                    'Thought You Would Do Worse.'
-                },
-                inkybot_magnate_win_2 = {
-                    "I can see your build",
-                    'Anyone could\'ve won with that.'
-                },
-                inkybot_magnate_win_3 = {
-                    'Just as a Reminder,',
-                    'You still owe me that much.'
-                },
-                inkybot_magnate_win_4 = {
-                    'Now that you\'ve won this run,',
-                    'Try going outside and take a stroll.'
+    },
 
-                },
-                inkybot_magnate_loss_1 = {
-                    'Isn\'t this your...',
-                    '8th Losing Streak this week?'
-                },
-                inkybot_magnate_loss_2 = {
-                    'What, you\'ll turn on Polterworx?'
-                },
-                inkybot_magnate_loss_3 = {
-                    'I made a bet with Micheal about',
-                    'This Specific Outcome...'
-                },
-                inkybot_magnate_loss_4 = {
-                    'I\'ll tell Clyde about this.',
-                    'Maybe even Rob...'
-                },
+    misc = {
+        quips = {
+            inkybot_magnate_win_1 = {
+                'Thought You Would Do Worse.'
             },
-        }
+            inkybot_magnate_win_2 = {
+                "I can see your build",
+                'Anyone could\'ve won with that.'
+            },
+            inkybot_magnate_win_3 = {
+                'Just as a Reminder,',
+                'You still owe me that much.'
+            },
+            inkybot_magnate_win_4 = {
+                'Now that you\'ve won this run,',
+                'Try going outside and take a stroll.'
+
+            },
+            inkybot_magnate_loss_1 = {
+                'Isn\'t this your...',
+                '8th Losing Streak this week?'
+            },
+            inkybot_magnate_loss_2 = {
+                'What, you\'ll turn on Polterworx?'
+            },
+            inkybot_magnate_loss_3 = {
+                'I made a bet with Micheal about',
+                'This Specific Outcome...'
+            },
+            inkybot_magnate_loss_4 = {
+                'I\'ll tell Clyde about this.',
+                'Maybe even Rob...'
+            },
+        },
     }
 }
