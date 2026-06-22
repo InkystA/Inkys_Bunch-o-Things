@@ -10,7 +10,7 @@ SMODS.Joker {
             chips = 25
         },
     },
-    rarity = 2,
+    rarity = 1,
     cost = 7,
     loc_vars = function(self, info_queue, card)
         return {

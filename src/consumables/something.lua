@@ -1,0 +1,15 @@
+-- SMODS.Consumable {
+--     key = 'Consumed',
+--     atlas = 'Sins',
+--     pos = {
+--         x = 0,
+--         y = 0
+--     },
+--     config = {
+--         extra = {
+
+--         }
+--     },
+--     set = '',
+--     select_card = 'consumeables'
+-- }

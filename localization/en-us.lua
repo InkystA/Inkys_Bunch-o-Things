@@ -26,11 +26,9 @@ return {
                 name = 'Receipt',
                 text = {
                     {
-                        'Does nothing',
-                        'for now'
-                    }, {
-                    '{C:inactive}Get trolled{}',
-                }
+                        '{C:common}Common{} Jokers take up',
+                        '{C:dark_edition}No joker slots{}'
+                    }
                 }
             },
             j_inkybot_iccanobif = {
