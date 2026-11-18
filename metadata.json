@@ -9,5 +9,5 @@
   "main_file": "maine.lua",
   "icon_path": "icon.png",
   "version": "0.0.1c",
-  "priority": 0,
+  "priority": 0
 }
