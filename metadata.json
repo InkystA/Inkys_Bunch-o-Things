@@ -8,6 +8,6 @@
   "prefix": "inkybot",
   "main_file": "maine.lua",
   "icon_path": "icon.png",
-  "version": "0.0.1c",
+  "version": "0.1.1",
   "priority": 0
 }

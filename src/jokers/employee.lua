@@ -22,13 +22,16 @@ SMODS.Joker {
         }
     end,
     calculate = function(self, card, context)
-        if context.money_altered and context.from_shop and not context.selling_card and not context.blueprint then
-            SMODS.scale_card(card, {
-                ref_table = card.ability.extra,
-                ref_value = "xmult",
-                scalar_value = "scalar",
-                message_colour = G.C.ATTENTION
-            })
+        if context.money_altered and type(context.amount) == "number" and not context.blueprint then
+            local spent = context.amount
+            if spent < 0 then
+                SMODS.scale_card(card, {
+                    ref_table = card.ability.extra,
+                    ref_value = "xmult",
+                    scalar_value = "scalar",
+                    message_colour = G.C.ATTENTION
+                })
+            end
         end
         if context.joker_main then
             return {

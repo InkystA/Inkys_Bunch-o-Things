@@ -7,7 +7,7 @@ SMODS.Joker {
     },
     config = {
         extra = {
-            xmult = 0.1,
+            xmult = 0.05,
         },
     },
     rarity = 3,

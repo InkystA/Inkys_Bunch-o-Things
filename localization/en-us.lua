@@ -13,7 +13,7 @@ return {
                 name = 'Mermaid',
                 text = {
                     {
-                        'Gives {C:money}$1{} for each',
+                        'Gives {C:money}$#1#{} for each',
                         'Scoring {C:clubs}Clubs{} card'
                     }, {
                     'Money Scales by {C:attention}#2#{}',
@@ -78,36 +78,38 @@ return {
                 name = 'Pink Slip',
                 text = {
                     {
-                        "Scored {C:hearts}#3#{} cards gain this joker {X:mult,C:white}x#2#{} mult",
+                        "Scored {C:hearts}#3#{} cards gain this joker",
+                        "{X:mult,C:white}x#2#{} mult",
                         "{C:inactive}(Currently{} {X:mult,C:white}x#1#{} {C:inactive}Mult){}",
-                    }, { "Scored {C:hearts}#3#{} are {C:attention}destroyed{}" }
+                    }, { "Scored {C:hearts}#3#{} cards are {C:attention}Destroyed{}" }
                 }
             },
             j_inkybot_raresuitd = {
                 name = 'Penalty Notice',
                 text = {
                     {
-                        "Scored {C:diamonds}#3#{} cards gain this joker {C:money}$#2#{} at the end of round",
+                        "Scored {C:diamonds}#3#{} cards gain this joker",
+                        "{C:money}$#2#{} at the end of round",
                         "{C:inactive}(Currently{} {C:money}$#1#{} {C:inactive}){}",
-                    }, { "Scored {C:diamonds}#3#{} are {C:attention}destroyed{}" }
+                    }, { "Scored {C:diamonds}#3#{} cards are {C:attention}Destroyed{}" }
                 }
             },
             j_inkybot_raresuitc = {
                 name = 'Cutoff Notice',
                 text = {
                     {
-                        "Scored {C:clubs}#3#{} cards gain this joker {C:mult}#2#{} mult",
-                        "{C:inactive}(Currently{} {C:mult}#1#{} {C:inactive}Mult){}",
-                    }, { "Scored {C:clubs}#3#{} are {C:attention}destroyed{}" }
+                        "Scored {C:clubs}#3#{} cards gain this joker {C:mult}+#2#{} mult",
+                        "{C:inactive}(Currently{} {C:mult}+#1#{} {C:inactive}Mult){}",
+                    }, { "Scored {C:clubs}#3#{} cards are {C:attention}Destroyed{}" }
                 }
             },
             j_inkybot_raresuits = {
                 name = 'Report Card',
                 text = {
                     {
-                        "Scored {C:spades}#3#{} cards gain this joker {C:chips}#2#{} chips",
-                        "{C:inactive}(Currently{} {C:chips}#1#{} {C:inactive}Chips){}",
-                    }, { "Scored {C:spades}#3#{} are {C:attention}destroyed{}" }
+                        "Scored {C:spades}#3#{} cards gain this joker {C:chips}+#2#{} chips",
+                        "{C:inactive}(Currently{} {C:chips}+#1#{} {C:inactive}Chips){}",
+                    }, { "Scored {C:spades}#3#{} cards are {C:attention}Destroyed{}" }
                 }
             },
         },
