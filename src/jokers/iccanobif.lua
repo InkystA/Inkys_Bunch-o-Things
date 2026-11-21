@@ -6,6 +6,8 @@ SMODS.Joker {
         y = 0
     },
     blueprint_compat = true,
+    unlocked = true,
+    discovered = false,
     rarity = 1,
     cost = 5,
     config = { extra = { chips = 13 } },

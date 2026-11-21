@@ -10,6 +10,8 @@ SMODS.Joker {
             xmult = 0.05,
         },
     },
+    unlocked = true,
+    discovered = false,
     rarity = 3,
     cost = 9,
     loc_vars = function(self, info_queue, card)

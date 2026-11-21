@@ -5,6 +5,8 @@ SMODS.Joker {
         x = 4,
         y = 0
     },
+    unlocked = true,
+    discovered = false,
     config = {
         extra = {
             xmult = 1,

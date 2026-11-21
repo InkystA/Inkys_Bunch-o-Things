@@ -5,6 +5,8 @@ SMODS.Joker {
         x = 2,
         y = 0
     },
+    unlocked = true,
+    discovered = false,
     blueprint_compat = false,
     extra_slots_used = -1,
     rarity = 3,

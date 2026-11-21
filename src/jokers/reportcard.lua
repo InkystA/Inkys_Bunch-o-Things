@@ -1,7 +1,8 @@
 SMODS.Joker {
     key = "raresuits",
     atlas = 'jokers',
-    unlocked = false,
+    unlocked = true,
+    discovered = false,
     blueprint_compat = true,
     rarity = 3,
     cost = 8,

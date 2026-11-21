@@ -5,6 +5,8 @@ SMODS.Joker {
         x = 0,
         y = 0
     },
+    unlocked = true,
+    discovered = false,
     config = {
         extra = {
             chips = 25
